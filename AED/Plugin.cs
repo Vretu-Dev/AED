@@ -10,7 +10,7 @@ namespace AED
         public override string Name => "Automated.External.Defibrillator";
         public override string Author => "Vretu";
         public override string Prefix => "AED";
-        public override Version Version => new Version(1, 0, 0);
+        public override Version Version => new Version(1, 1, 0);
         public override Version RequiredExiledVersion { get; } = new Version(9, 9, 0);
         public static Plugin Instance { get; private set; }
 
