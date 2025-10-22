@@ -10,10 +10,12 @@ namespace AED
         {
             return Lift.Get(position) != null;
         }
+
         private static bool IsPocketDimension(Room room)
         {
             return room != null && room.Type == RoomType.Pocket;
         }
+
         public static bool IsNotSafeArea(Vector3 position, Room room)
         {
             if (IsPocketDimension(room))

@@ -44,10 +44,10 @@ namespace AED
 
         public string ReviverHint { get; set; } = "<color=#00E5FF>You revived the player {target}</color>";
         public string RevivedHint { get; set; } = "<color=#FFDD00>You were revived using an <color=red>AED</color></color>";
-        public string ShockProgressHint { get; set; } = "<color=#00E5FF>Shock <color=yellow>{applied}</color>/<color=yellow>{required}</color> to revive {target}</color>";
-        public string ChargingHint { get; set; } = "<color=#00E5FF><color=red>AED</color> charging... <color=yellow>{percent}%</color></color>";
+        public string ShockProgressHint { get; set; } = "Shock <color=yellow>{applied}</color>/<color=yellow>{required}</color> to revive {target}";
+        public string ChargingHint { get; set; } = "<color=red>AED</color> charging... <color=yellow>{percent}%</color>";
         public string FailUsed { get; set; } = "You can’t use <color=red>AED</color> here.";
-        public string ShocksLeft { get; set; } = "<color=#00E5FF><color=red>AED</color> charges: <color=yellow>{left}</color>/<color=yellow>{max}</color></color>";
+        public string ShocksLeft { get; set; } = "<color=red>AED</color> charges: <color=yellow>{left}</color>/<color=yellow>{max}</color>";
 
         public override SpawnProperties SpawnProperties { get; set; } = new()
         {
